@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-react-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-react
+  template:
+    metadata:
+      labels:
+        app: nginx-react
+    spec:
+      containers:
+      - name: nginx-react
+        image: custom-nginx-react
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 80

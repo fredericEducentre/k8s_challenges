@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: php-server-service
+spec:
+  type: NodePort
+  ports:
+    - port: 8080
+      nodePort: 30004
+  selector:
+    app: php-server
