@@ -102,33 +102,40 @@ spec:
 ```
 
 Lier le registry docker de minikube au terminal pour pouvoir construire une image au sein de minikube :
+```
 eval $(minikube -p minikube docker-env)
+```
 
 ---
 
 # Niveau 1 : HTML
 
 Déployer un serveur nginx
+
 Fichier de déploiement + service
 
 # Niveau 2 : Custom HTML
 
 Déployer un serveur nginx avec une image custom
+
 Index.html (SPA bootstrap optionnel) + Dockerfile + Fichier de déploiement + Service
 
 # Niveau 3 : REACT.JS
 
 Déployer un serveur nginx avec une image custom d'un projet ReactJS
+
 ReactJs project build + Dockerfile + Fichier de déploiement + Service
 
 # Niveau 4 : PHP
 
 Déployer un serveur nginx avec php-fpm
+
 Index.php + Dockerfile + Fichier déploiement + Service
 
 # Niveau 5 : SYMFONY + MySQL
 
 Déployer un projet symfony avec MySql dans un container php
+
 Projet symfony + Dockerfile symfony composer + Fichier déploiement symfony + Service symfony + Fichier déploiement MySQL + Fichier service MySQL + Fichier PVC MySQL
 
 #1. Démarrer avec un projet Symfony
