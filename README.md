@@ -20,7 +20,8 @@ virsh list
 
 Commandes à connaître :
 ```
-kubectl apply -f NOM_DU_FICHIER.yaml
+kubectl apply -f <nom_du_fichier>.yaml
+kubectl delete -f <nom_du_fichier>.yaml
 kubectl get deployment/services/pods
 ```
 
