@@ -25,7 +25,7 @@ kubectl delete -f <nom_du_fichier>.yaml
 kubectl get deployment/services/pods
 ```
 
-Types de fichier: Deployment, Service et PersistentVolumeClaim
+Types de fichier: Deployment, Service, PersistentVolumeClaim et Job
 
 Structure d'un fichier deployment.yaml k8s :
 
