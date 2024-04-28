@@ -81,7 +81,7 @@ spec:
       storage: <Gi ex: 1Gi>
 ```
 
-Structure d'un fichier pvc.yaml k8s :
+Structure d'un fichier job.yaml k8s :
 ```
 apiVersion: batch/v1
 kind: Job
